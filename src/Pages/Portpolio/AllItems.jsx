@@ -16,6 +16,7 @@ function AllItems() {
                       <Item 
                         img = {val.img}
                         title = {val.title}
+                        url = {val.url}
                       />
                     )
                   })

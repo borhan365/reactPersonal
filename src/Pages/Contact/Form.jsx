@@ -4,7 +4,7 @@ function Form() {
     return (
         <>
             <div className="col-12 col-lg-8">
-                <form className="contactform" method="post" action="php/process-form.php">
+                <form className="contactform" method="post">
                     <div className="contactform">
                         <div className="row">
                             <div className="col-12 col-md-4">

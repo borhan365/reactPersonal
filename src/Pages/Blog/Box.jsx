@@ -6,7 +6,7 @@ function Box(props) {
         <>
             <div className="col-12 col-md-6 col-lg-6 col-xl-4 mb-30">
                 <article className="post-container">
-                    <div className="post-thumb">
+                    <div className="post-thumb blogpost__thumb">
                         <Link to="/single" className="d-block position-relative overflow-hidden">
                             <img src={props.img} className="img-fluid" alt={props.title} />
                         </Link>

@@ -15,23 +15,23 @@ function Experience() {
                                 <i className="fa fa-briefcase"></i>
                             </div>
                             <span className="time open-sans-font text-uppercase">2018 - Present</span>
-                            <h5 className="poppins-font text-uppercase">Web Developer <span className="place open-sans-font">Envato</span></h5>
+                            <h5 className="poppins-font text-uppercase">Web Designer <span className="place open-sans-font">Fiverr</span></h5>
                             <p className="open-sans-font">Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit, </p>
                         </li>
                         <li>
                             <div className="icon">
                                 <i className="fa fa-briefcase"></i>
                             </div>
-                            <span className="time open-sans-font text-uppercase">2013 - 2018</span>
-                            <h5 className="poppins-font text-uppercase">UI/UX Designer <span className="place open-sans-font">Themeforest</span></h5>
+                            <span className="time open-sans-font text-uppercase">2020 - 2021</span>
+                            <h5 className="poppins-font text-uppercase">Front-End Developer <span className="place open-sans-font">NavieaSoft Ltd</span></h5>
                             <p className="open-sans-font">Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt</p>
                         </li>
                         <li>
                             <div className="icon">
                                 <i className="fa fa-briefcase"></i>
                             </div>
-                            <span className="time open-sans-font text-uppercase">2005 - 2013</span>
-                            <h5 className="poppins-font text-uppercase">Consultant <span className="place open-sans-font">Videohive</span></h5>
+                            <span className="time open-sans-font text-uppercase">2021 - Present</span>
+                            <h5 className="poppins-font text-uppercase">Front-End Developer <span className="place open-sans-font">BD Info Zone</span></h5>
                             <p className="open-sans-font">Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt</p>
                         </li>
                     </ul>
@@ -44,24 +44,24 @@ function Experience() {
                             <div className="icon">
                                 <i className="fa fa-graduation-cap"></i>
                             </div>
-                            <span className="time open-sans-font text-uppercase">2015</span>
-                            <h5 className="poppins-font text-uppercase">Engineering Degree <span className="place open-sans-font">Oxford University</span></h5>
+                            <span className="time open-sans-font text-uppercase">2013</span>
+                            <h5 className="poppins-font text-uppercase">SSC <span className="place open-sans-font">M.A Ali High School</span></h5>
                             <p className="open-sans-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore</p>
                         </li>
                         <li>
                             <div className="icon">
                                 <i className="fa fa-graduation-cap"></i>
                             </div>
-                            <span className="time open-sans-font text-uppercase">2012</span>
-                            <h5 className="poppins-font text-uppercase">Master Degree <span className="place open-sans-font">Kiev University</span></h5>
+                            <span className="time open-sans-font text-uppercase">2015</span>
+                            <h5 className="poppins-font text-uppercase">HSC <span className="place open-sans-font">Mirsarai Degree College</span></h5>
                             <p className="open-sans-font">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut adipisicing</p>
                         </li>
                         <li>
                             <div className="icon">
                                 <i className="fa fa-graduation-cap"></i>
                             </div>
-                            <span className="time open-sans-font text-uppercase">2009</span>
-                            <h5 className="poppins-font text-uppercase">Bachelor Degree <span className="place open-sans-font">Tunis High School</span></h5>
+                            <span className="time open-sans-font text-uppercase">2021</span>
+                            <h5 className="poppins-font text-uppercase">BBA <span className="place open-sans-font">Nizampur University College</span></h5>
                             <p className="open-sans-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore</p>
                         </li>
                     </ul>

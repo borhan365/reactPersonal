@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { ExternalLink } from 'react-external-link'
 
 function Content() {
     return (
@@ -16,13 +17,13 @@ function Content() {
                     <span className="d-block">call me</span>+88-01818458934
                 </p>
                 <ul className="social list-unstyled pt-1 mb-5">
-                    <li className="facebook"><Link title="Facebook" to="https://www.facebook.com/borhan365/"><i className="fab fa-facebook"></i></Link>
+                    <li className="facebook"><ExternalLink title="Facebook" href="https://www.facebook.com/borhan365/"><i className="fab fa-facebook"></i></ExternalLink>
                     </li>
-                    <li className="twitter"><Link title="Twitter" to="https://www.facebook.com/borhan365"><i className="fab fa-twitter"></i></Link>
+                    <li className="twitter"><ExternalLink title="Twitter" href="https://www.facebook.com/borhan365"><i className="fab fa-twitter"></i></ExternalLink>
                     </li>
-                    <li className="youtube"><Link title="Youtube" to="https://www.facebook.com/borhan365"><i className="fab fa-youtube"></i></Link>
+                    <li className="youtube"><ExternalLink title="Youtube" href="https://www.facebook.com/borhan365"><i className="fab fa-youtube"></i></ExternalLink>
                     </li>
-                    <li className="dribbble"><Link title="Dribbble" to="https://www.facebook.com/borhan365"><i className="fab fa-dribbble"></i></Link>
+                    <li className="dribbble"><ExternalLink title="Dribbble" href="https://www.facebook.com/borhan365"><i className="fab fa-dribbble"></i></ExternalLink>
                     </li>
                 </ul>
             </div>

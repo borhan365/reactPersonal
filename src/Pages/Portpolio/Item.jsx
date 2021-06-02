@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { ExternalLink } from 'react-external-link'
 
 function Item(props) {
     return (
@@ -9,9 +9,9 @@ function Item(props) {
                 <img src={props.img} alt="" />
                 </div>
                 <div className="portfolio__content">
-                    <Link to="/single">
+                    <ExternalLink href={props.url}>
                         <h4>{props.title}</h4>
-                    </Link>
+                    </ExternalLink>
                 </div>
             </div>
         </>
