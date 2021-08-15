@@ -1,29 +1,20 @@
-import React from 'react'
-import Box from './Box'
-import Data from './Data'
+import React from "react";
+import Box from "./Box";
 
-function Wrapper() {
-    return (
-        <>
-            <section className="main-content">
-                <div className="container">
-                    <div className="row">
-                        {
-                            Data.map((val) => {
-                                return(
-                                    <Box 
-                                        img = {val.img}
-                                        title = {val.title}
-                                        desc = {val.desc}
-                                    />
-                                )
-                            })
-                        }
-                    </div>
-                </div>
-            </section>
-        </>
-    )
+function Wrapper({ posts }) {
+  return (
+    <>
+      <section className="main-content">
+        <div className="container">
+          <div className="row">
+            {posts.map((p) => {
+              return <Box post={p} key={p._id} />;
+            })}
+          </div>
+        </div>
+      </section>
+    </>
+  );
 }
 
-export default Wrapper
+export default Wrapper;

@@ -12,7 +12,7 @@ function PersonalInfo() {
                         <h3 className="text-uppercase custom-title mb-0 ft-wt-600">personal info</h3>
                     </div>
                     <div className="col-12 d-block d-sm-none">
-                        <img src="img/me.jpg" className="img-fluid main-img-mobile" alt="my picture" />
+                        {/* <img src="img/me.jpg" className="img-fluid main-img-mobile" alt="my picture" /> */}
                     </div>
                     <div className="col-6">
                         <ul className="about-list list-unstyled open-sans-font">
